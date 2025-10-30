@@ -1,0 +1,37 @@
+.card {
+    border: 1px solid var(--color-light);
+    padding: var(--spacing-32);
+    border-radius: 8px;
+    width: 250px;
+}
+
+.btn {
+    padding: var(--spacing-8);
+    cursor: pointer;
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn:hover { background: var(--color-secondary); }
+.btn:disabled { background: gray; }
+
+.alert {
+    padding: var(--spacing-16);
+    border-radius: 8px;
+    margin: var(--spacing-16) 0;
+}
+
+.alert-danger {
+    background: #ffcccc;
+    color: #b30000;
+}
+
+.toast {
+    background: var(--color-info);
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
