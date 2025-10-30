@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background: var(--color-dark);
+    color: white;
+    display: flex;
+    padding: var(--spacing-16);
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: var(--spacing-24);
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#root {
+    padding: var(--spacing-32);
+}
