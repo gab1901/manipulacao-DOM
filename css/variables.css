@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #007bff;
+    --color-secondary: #6610f2;
+    --color-success: #28a745;
+    --color-danger: #dc3545;
+    --color-warning: #ffc107;
+    --color-info: #17a2b8;
+    --color-dark: #343a40;
+    --color-light: #f8f9fa;
+
+    --fz-xl: 32px;
+    --fz-lg: 24px;
+    --fz-md: 18px;
+    --fz-sm: 14px;
+    --fz-xs: 12px;
+
+    --spacing-8: 8px;
+    --spacing-16: 16px;
+    --spacing-24: 24px;
+    --spacing-32: 32px;
+    --spacing-48: 48px;
+    --spacing-64: 64px;
+}
