@@ -1,0 +1,4 @@
+.cards-area {
+    display: flex;
+    gap: var(--spacing-24);
+}
